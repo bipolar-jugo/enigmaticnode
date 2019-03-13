@@ -65,7 +65,7 @@ function  create() {
 
     var secure = location.origin.indexOf('https') > -1;
     
-    ws = new WebSocket(location.origin.replace(/^https?/, 'ws' + (secure ? 's':'')).replace(':3000', '' ) + (secure ? '':':3001'));
+    ws = new WebSocket(location.origin.replace(/^https?/, 'ws' + (secure ? 's':'')).replace(':3002', '' ) + (secure ? '':':3001'));
     ws.onopen = function(message){
 
         ws.onmessage = function (message) {
