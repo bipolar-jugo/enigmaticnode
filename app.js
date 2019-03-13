@@ -3,7 +3,7 @@ var express = require('express');
 var cookieParser = require('cookie-parser');
 const compression = require('compression');
 const http = require('http');
-const DEBUG_PORT = 3002;
+const DEBUG_PORT = 3000;
 var path = require('path');
 const app = express();
 
